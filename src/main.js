@@ -13,7 +13,7 @@ import {
     });
   
     // Create a new CameraKit session.
-    const session = await cameraKit.createSession();
+    const session = await cameraKit.createSession(); 
   
     // Replace the `canvas` element with the live output from the CameraKit session.
     document.getElementById('canvas').replaceWith(session.output.live);
